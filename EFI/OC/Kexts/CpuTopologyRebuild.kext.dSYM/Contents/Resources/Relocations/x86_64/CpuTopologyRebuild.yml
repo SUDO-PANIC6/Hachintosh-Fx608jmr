@@ -1,0 +1,50 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/runner/work/CpuTopologyRebuild/CpuTopologyRebuild/build/Release/CpuTopologyRebuild.kext/Contents/MacOS/CpuTopologyRebuild'
+relocations:
+  - { offsetInCU: 0x35, offset: 0x35, size: 0x8, addend: 0x0, symName: _kmod_info, symObjAddr: 0x97C, symBinAddr: 0x29A8, symSize: 0x0 }
+  - { offsetInCU: 0x206, offset: 0x206, size: 0x8, addend: 0x0, symName: __realmain, symObjAddr: 0x1E4E8, symBinAddr: 0x2A70, symSize: 0x0 }
+  - { offsetInCU: 0x21C, offset: 0x21C, size: 0x8, addend: 0x0, symName: __antimain, symObjAddr: 0x1E4F0, symBinAddr: 0x2A78, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x24C, size: 0x8, addend: 0x0, symName: __ZN18CpuTopologyRebuildD1Ev, symObjAddr: 0x0, symBinAddr: 0x1414, symSize: 0xA }
+  - { offsetInCU: 0x2F, offset: 0x254, size: 0x8, addend: 0x0, symName: _kmod_info, symObjAddr: 0x97C, symBinAddr: 0x29A8, symSize: 0x0 }
+  - { offsetInCU: 0x3E, offset: 0x263, size: 0x8, addend: 0x0, symName: __ZN18CpuTopologyRebuild10gMetaClassE, symObjAddr: 0x1E500, symBinAddr: 0x2A80, symSize: 0x0 }
+  - { offsetInCU: 0xCDF6, offset: 0xD01B, size: 0x8, addend: 0x0, symName: _CpuTopologyRebuild_debugPrintDelay, symObjAddr: 0x1E528, symBinAddr: 0x2AA8, symSize: 0x0 }
+  - { offsetInCU: 0xCE0C, offset: 0xD031, size: 0x8, addend: 0x0, symName: _print_only, symObjAddr: 0x1E52C, symBinAddr: 0x2AAC, symSize: 0x0 }
+  - { offsetInCU: 0xCE26, offset: 0xD04B, size: 0x8, addend: 0x0, symName: _smt_spoof, symObjAddr: 0xA40, symBinAddr: 0x2A6C, symSize: 0x0 }
+  - { offsetInCU: 0xCE40, offset: 0xD065, size: 0x8, addend: 0x0, symName: _hide_e_core, symObjAddr: 0x1E52D, symBinAddr: 0x2AAD, symSize: 0x0 }
+  - { offsetInCU: 0xCE5A, offset: 0xD07F, size: 0x8, addend: 0x0, symName: _fix_core_count, symObjAddr: 0x1E52E, symBinAddr: 0x2AAE, symSize: 0x0 }
+  - { offsetInCU: 0xCE74, offset: 0xD099, size: 0x8, addend: 0x0, symName: _p0_cpus, symObjAddr: 0x1E530, symBinAddr: 0x2AB0, symSize: 0x0 }
+  - { offsetInCU: 0xD4BC, offset: 0xD6E1, size: 0x8, addend: 0x0, symName: _p1_cpus, symObjAddr: 0x1E630, symBinAddr: 0x2BB0, symSize: 0x0 }
+  - { offsetInCU: 0xD4D6, offset: 0xD6FB, size: 0x8, addend: 0x0, symName: _e0_cpus, symObjAddr: 0x1E730, symBinAddr: 0x2CB0, symSize: 0x0 }
+  - { offsetInCU: 0xD508, offset: 0xD72D, size: 0x8, addend: 0x0, symName: _p0_count, symObjAddr: 0x1E930, symBinAddr: 0x2EB0, symSize: 0x0 }
+  - { offsetInCU: 0xD522, offset: 0xD747, size: 0x8, addend: 0x0, symName: _p1_count, symObjAddr: 0x1E934, symBinAddr: 0x2EB4, symSize: 0x0 }
+  - { offsetInCU: 0xD53C, offset: 0xD761, size: 0x8, addend: 0x0, symName: _e0_count, symObjAddr: 0x1E938, symBinAddr: 0x2EB8, symSize: 0x0 }
+  - { offsetInCU: 0xD545, offset: 0xD76A, size: 0x8, addend: 0x0, symName: __ZN18CpuTopologyRebuild5probeEP9IOServicePi, symObjAddr: 0x3A, symBinAddr: 0x144E, symSize: 0x3E3 }
+  - { offsetInCU: 0xD54D, offset: 0xD772, size: 0x8, addend: 0x0, symName: __Z24my_x86_validate_topologyv, symObjAddr: 0x41D, symBinAddr: 0x1831, symSize: 0x4C7 }
+  - { offsetInCU: 0xD574, offset: 0xD799, size: 0x8, addend: 0x0, symName: __ZZN18CpuTopologyRebuild5probeEP9IOServicePiE4done, symObjAddr: 0x1E93C, symBinAddr: 0x2EBC, symSize: 0x0 }
+  - { offsetInCU: 0xD7A8, offset: 0xD9CD, size: 0x8, addend: 0x0, symName: __ZL11kextVersion, symObjAddr: 0x1560, symBinAddr: 0x1F30, symSize: 0x0 }
+  - { offsetInCU: 0xDE3E, offset: 0xE063, size: 0x8, addend: 0x0, symName: __ZN18CpuTopologyRebuildD1Ev, symObjAddr: 0x0, symBinAddr: 0x1414, symSize: 0xA }
+  - { offsetInCU: 0xDE46, offset: 0xE06B, size: 0x8, addend: 0x0, symName: __ZN18CpuTopologyRebuildD0Ev, symObjAddr: 0xA, symBinAddr: 0x141E, symSize: 0x22 }
+  - { offsetInCU: 0xDE74, offset: 0xE099, size: 0x8, addend: 0x0, symName: __ZN18CpuTopologyRebuildD0Ev, symObjAddr: 0xA, symBinAddr: 0x141E, symSize: 0x22 }
+  - { offsetInCU: 0xDEB4, offset: 0xE0D9, size: 0x8, addend: 0x0, symName: __ZN18CpuTopologyRebuildD0Ev, symObjAddr: 0xA, symBinAddr: 0x141E, symSize: 0x22 }
+  - { offsetInCU: 0xDF3C, offset: 0xE161, size: 0x8, addend: 0x0, symName: __ZNK18CpuTopologyRebuild12getMetaClassEv, symObjAddr: 0x2C, symBinAddr: 0x1440, symSize: 0xE }
+  - { offsetInCU: 0xEBD5, offset: 0xEDFA, size: 0x8, addend: 0x0, symName: __Z24my_x86_validate_topologyv, symObjAddr: 0x41D, symBinAddr: 0x1831, symSize: 0x4C7 }
+  - { offsetInCU: 0xEEB6, offset: 0xF0DB, size: 0x8, addend: 0x0, symName: __ZN18CpuTopologyRebuild9MetaClassD1Ev, symObjAddr: 0x8E4, symBinAddr: 0x1CF8, symSize: 0xA }
+  - { offsetInCU: 0xEEBE, offset: 0xF0E3, size: 0x8, addend: 0x0, symName: __ZN18CpuTopologyRebuild9MetaClassD0Ev, symObjAddr: 0x8EE, symBinAddr: 0x1D02, symSize: 0xA }
+  - { offsetInCU: 0xEEEC, offset: 0xF111, size: 0x8, addend: 0x0, symName: __ZN18CpuTopologyRebuild9MetaClassD0Ev, symObjAddr: 0x8EE, symBinAddr: 0x1D02, symSize: 0xA }
+  - { offsetInCU: 0xEF2C, offset: 0xF151, size: 0x8, addend: 0x0, symName: __ZN18CpuTopologyRebuild9MetaClassD0Ev, symObjAddr: 0x8EE, symBinAddr: 0x1D02, symSize: 0xA }
+  - { offsetInCU: 0xEF34, offset: 0xF159, size: 0x8, addend: 0x0, symName: __ZNK18CpuTopologyRebuild9MetaClass5allocEv, symObjAddr: 0x8F8, symBinAddr: 0x1D0C, symSize: 0x40 }
+  - { offsetInCU: 0xEF6E, offset: 0xF193, size: 0x8, addend: 0x0, symName: __ZNK18CpuTopologyRebuild9MetaClass5allocEv, symObjAddr: 0x8F8, symBinAddr: 0x1D0C, symSize: 0x40 }
+  - { offsetInCU: 0xEF95, offset: 0xF1BA, size: 0x8, addend: 0x0, symName: __ZNK18CpuTopologyRebuild9MetaClass5allocEv, symObjAddr: 0x8F8, symBinAddr: 0x1D0C, symSize: 0x40 }
+  - { offsetInCU: 0xEFF9, offset: 0xF21E, size: 0x8, addend: 0x0, symName: __ZNK18CpuTopologyRebuild9MetaClass5allocEv, symObjAddr: 0x8F8, symBinAddr: 0x1D0C, symSize: 0x40 }
+  - { offsetInCU: 0xF001, offset: 0xF226, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_CpuTopologyRebuild.cpp, symObjAddr: 0x938, symBinAddr: 0x1D4C, symSize: 0x33 }
+  - { offsetInCU: 0xF0C9, offset: 0xF2EE, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_CpuTopologyRebuild.cpp, symObjAddr: 0x938, symBinAddr: 0x1D4C, symSize: 0x33 }
+  - { offsetInCU: 0xF0D1, offset: 0xF2F6, size: 0x8, addend: 0x0, symName: __GLOBAL__D_a, symObjAddr: 0x96B, symBinAddr: 0x1D7F, symSize: 0x11 }
+  - { offsetInCU: 0xF0EF, offset: 0xF314, size: 0x8, addend: 0x0, symName: __GLOBAL__D_a, symObjAddr: 0x96B, symBinAddr: 0x1D7F, symSize: 0x11 }
+  - { offsetInCU: 0xF10A, offset: 0xF32F, size: 0x8, addend: 0x0, symName: __GLOBAL__D_a, symObjAddr: 0x96B, symBinAddr: 0x1D7F, symSize: 0x11 }
+  - { offsetInCU: 0xF133, offset: 0xF358, size: 0x8, addend: 0x0, symName: __GLOBAL__D_a, symObjAddr: 0x96B, symBinAddr: 0x1D7F, symSize: 0x11 }
+  - { offsetInCU: 0xF155, offset: 0xF37A, size: 0x8, addend: 0x0, symName: __GLOBAL__D_a, symObjAddr: 0x96B, symBinAddr: 0x1D7F, symSize: 0x11 }
+  - { offsetInCU: 0xF15D, offset: 0xF382, size: 0x8, addend: 0x0, symName: _kmod_info, symObjAddr: 0x97C, symBinAddr: 0x29A8, symSize: 0x0 }
+  - { offsetInCU: 0xF17B, offset: 0xF3A0, size: 0x8, addend: 0x0, symName: _kmod_info, symObjAddr: 0x97C, symBinAddr: 0x29A8, symSize: 0x0 }
+  - { offsetInCU: 0xF1A3, offset: 0xF3C8, size: 0x8, addend: 0x0, symName: _kmod_info, symObjAddr: 0x97C, symBinAddr: 0x29A8, symSize: 0x0 }
+...
